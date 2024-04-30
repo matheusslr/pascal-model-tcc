@@ -1,0 +1,5 @@
+[31m[Pascal][0m Missing application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/pascalanalyzer-0.9.1-py3.10-linux-x86_64.egg/pascalanalyzer/run.py", line 365, in main
+    raise UserMistake("Missing application")
+pascalanalyzer.exceptions.UserMistake: Missing application
