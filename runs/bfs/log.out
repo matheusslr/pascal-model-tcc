@@ -1,0 +1,39 @@
+[31m[Pascal][0m This MLPRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+Traceback (most recent call last):
+  File "/home/matheus/Documentos/pascalsuite-analyzer/venv/lib/python3.10/site-packages/pascalanalyzer/run.py", line 621, in main
+    app.run(configs)
+  File "/home/matheus/Documentos/pascalsuite-analyzer/venv/lib/python3.10/site-packages/pascalanalyzer/pascalrun.py", line 360, in run
+    total_time = self.model.predict(inputs)[0]
+  File "/home/matheus/Documentos/pascalsuite-analyzer/venv/lib/python3.10/site-packages/pascalanalyzer/pascalregressionmodel.py", line 159, in predict
+    return self.model.predict(X)
+  File "/home/matheus/Documentos/pascalsuite-analyzer/venv/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py", line 1596, in predict
+    check_is_fitted(self)
+  File "/home/matheus/Documentos/pascalsuite-analyzer/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 1390, in check_is_fitted
+    raise NotFittedError(msg % {"name": type(estimator).__name__})
+sklearn.exceptions.NotFittedError: This MLPRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+[31m[Pascal][0m This MLPRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+Traceback (most recent call last):
+  File "/home/matheus/Documentos/pascalsuite-analyzer/venv/lib/python3.10/site-packages/pascalanalyzer/run.py", line 621, in main
+    app.run(configs)
+  File "/home/matheus/Documentos/pascalsuite-analyzer/venv/lib/python3.10/site-packages/pascalanalyzer/pascalrun.py", line 360, in run
+    total_time = self.model.predict(inputs)[0]
+  File "/home/matheus/Documentos/pascalsuite-analyzer/venv/lib/python3.10/site-packages/pascalanalyzer/pascalregressionmodel.py", line 162, in predict
+    return self.model.predict(X)
+  File "/home/matheus/Documentos/pascalsuite-analyzer/venv/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py", line 1596, in predict
+    check_is_fitted(self)
+  File "/home/matheus/Documentos/pascalsuite-analyzer/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 1390, in check_is_fitted
+    raise NotFittedError(msg % {"name": type(estimator).__name__})
+sklearn.exceptions.NotFittedError: This MLPRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+[31m[Pascal][0m This MLPRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+Traceback (most recent call last):
+  File "/home/matheus/Documentos/pascalsuite-analyzer/venv/lib/python3.10/site-packages/pascalanalyzer/run.py", line 621, in main
+    app.run(configs)
+  File "/home/matheus/Documentos/pascalsuite-analyzer/venv/lib/python3.10/site-packages/pascalanalyzer/pascalrun.py", line 360, in run
+    total_time = self.model.predict(inputs)[0]
+  File "/home/matheus/Documentos/pascalsuite-analyzer/venv/lib/python3.10/site-packages/pascalanalyzer/pascalregressionmodel.py", line 153, in predict
+    return self.model.predict(X)
+  File "/home/matheus/Documentos/pascalsuite-analyzer/venv/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py", line 1596, in predict
+    check_is_fitted(self)
+  File "/home/matheus/Documentos/pascalsuite-analyzer/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 1390, in check_is_fitted
+    raise NotFittedError(msg % {"name": type(estimator).__name__})
+sklearn.exceptions.NotFittedError: This MLPRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
