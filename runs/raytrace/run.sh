@@ -1,3 +1,3 @@
-INPUTS="320 240,640 480,800 600,1024 768,1280 1024,1920 1080,3840 2140,7680 4320"
+INPUTS="320 240,640 360,640 480,800 600,960 540,1024 768,1280 720,1280 1024,1600 900,1920 1080,2160 1440,2560 1440,3200 1800,3840 2140,5120 2880,7680 4320"
 
-pascalanalyzer ./raytrace -c 1:20 -i "${INPUTS}" -r 10 -o model_output -m 100 100
+pascalanalyzer ./raytrace -c 1:16 -i "${INPUTS}" -r 10 -o raytrace_model_single_last_output.json -m 100 100
