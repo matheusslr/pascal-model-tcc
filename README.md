@@ -6,25 +6,6 @@ O repositório tem caráter **acadêmico e experimental**, servindo como apoio �
 
 ---
 
-## 🎓 Contexto Acadêmico
-
-* **Trabalho de Conclusão de Curso (TCC)** – UFRN
-* Área: Modelagem / Regressão / Análise de Dados / Análise de escalabilidade / Aplicações paralelas
-
-Este repositório não contém o texto do TCC em si, mas sim os **artefatos computacionais** utilizados durante o desenvolvimento da pesquisa.
-
----
-
-## 🧠 Objetivo do Repositório
-
-* Centralizar os **notebooks de experimentação** utilizados no TCC;
-* Disponibilizar os **datasets processados**;
-* Registrar as **visualizações e resultados obtidos**;
-* Facilitar a **reprodutibilidade dos experimentos**;
-* Servir como documentação técnica do trabalho desenvolvido.
-
----
-
 ## 📁 Estrutura do Repositório
 
 ```
@@ -55,28 +36,6 @@ pascal-model-tcc/
 
 ---
 
-## 📓 Descrição dos Notebooks
-
-* **preprocessing.ipynb**
-  Responsável pela limpeza, tratamento e preparação inicial dos dados.
-
-* **data_segregation.ipynb**
-  Realiza a separação dos dados em conjuntos de treino, validação e teste.
-
-* **data_visualization.ipynb**
-  Exploração visual dos dados brutos e transformados.
-
-* **preprocessing_visualization.ipynb**
-  Visualizações específicas relacionadas às etapas de pré-processamento.
-
-* **train.ipynb**
-  Implementação do treinamento do modelo Pascal e avaliação de desempenho.
-
-* **results_visualization.ipynb**
-  Consolidação dos resultados finais, gráficos comparativos e análises de erro.
-
----
-
 ## 🧪 Resultados e Execuções Experimentais
 
 Os resultados experimentais estão organizados principalmente no diretório `runs/`, que contém as evidências empíricas utilizadas para sustentar as análises do TCC.
@@ -97,36 +56,6 @@ Os resultados obtidos durante os experimentos incluem:
 * Evidências empíricas que sustentam as conclusões do TCC.
 
 As principais figuras utilizadas na análise estão disponíveis no diretório `figures/`.
-
----
-
-## 📦 Dependências
-
-As principais bibliotecas utilizadas nos experimentos incluem:
-
-* Python 3.x
-* numpy
-* pandas
-* scikit-learn
-* matplotlib
-* seaborn
-* jupyter
-
-A lista completa e versões específicas das dependências estão descritas no arquivo `requeriments.txt`.
-
----
-
-## ⚙️ Requisitos e Execução
-
-### Instalação das dependências
-
-```bash
-pip install -r requeriments.txt
-```
-
-### Execução
-
-Após a instalação, os notebooks podem ser executados sequencialmente em um ambiente Jupyter Notebook ou JupyterLab.
 
 ---
 
